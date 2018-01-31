@@ -1,0 +1,6 @@
+<loop-action loop="${Ex08_eCategory_matchNr}" name="loop" uid="50f0552a-73f6-4b2b-85e6-1b5499c95193">
+    <description>Ex08_eCategory_matchNr}</description>
+    <embedded-action>ce287e2c-616c-47d2-808d-39ce9138dbe3</embedded-action>
+    <embedded-action>308277b3-3f03-4fb5-bb44-dd078fe107f0</embedded-action>
+    <embedded-action>0d051804-3131-4cfe-bcae-22d3159223db</embedded-action>
+</loop-action>

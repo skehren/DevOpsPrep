@@ -1,0 +1,8 @@
+<while-action name="while" uid="35cfb1fd-7984-4561-a075-9a5ddd4399e5">
+    <embedded-action>97a361c6-490e-447f-a036-646700f0843f</embedded-action>
+    <embedded-action>7923c1e4-44d8-40d9-9a9a-26ae0b411f42</embedded-action>
+    <embedded-action>c234ba51-e543-4469-9270-d17820d35a0a</embedded-action>
+    <conditions match-type="1">
+        <condition operand1="${Ex08_ePrice}" operand2="500" operator="LESSER_THAN"/>
+    </conditions>
+</while-action>

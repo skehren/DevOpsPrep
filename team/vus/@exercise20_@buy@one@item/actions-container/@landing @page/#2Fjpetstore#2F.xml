@@ -1,0 +1,346 @@
+<http-page executeResourcesDynamically="false" name="/jpetstore/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    slaProfileEnabled="false" thinkTime="1664"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a1e50fe5-47c4-4489-bcd0-f854292fcd81">
+    <embedded-action>19fd7296-40fe-4357-89cc-13208dcfa63f</embedded-action>
+    <embedded-action>3fc742eb-7991-4c19-8216-22a86df85c2f</embedded-action>
+    <embedded-action>268ee14e-8f8c-4dd8-9cc4-a39a41eab0f2</embedded-action>
+    <embedded-action>35d3e814-070b-4d5f-b842-f6777bda9b39</embedded-action>
+    <embedded-action>e7e7ccd7-fff1-49a9-b879-7fed7983466e</embedded-action>
+    <embedded-action>f855dac3-8f52-4fb6-8354-25241b4f3291</embedded-action>
+    <embedded-action>cbf87568-b908-453e-b168-496edbb84251</embedded-action>
+    <embedded-action>33247369-2a32-4a9f-ba40-16d9ffa295dc</embedded-action>
+    <embedded-action>c95a3c28-7e5c-466d-8aaf-10c04e93fb4e</embedded-action>
+    <embedded-action>5ee1ae6e-45c5-47d0-92b2-801ba1646b0e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a1e50fe5-47c4-4489-bcd0-f854292fcd81.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="W/&quot;1433-1088130660000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/" path="/jpetstore/" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="250"
+    responseSize="1433" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="19fd7296-40fe-4357-89cc-13208dcfa63f" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_19fd7296-40fe-4357-89cc-13208dcfa63f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_19fd7296-40fe-4357-89cc-13208dcfa63f.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="DNT" value="1"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"1433-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: text/html
+Content-Length: 1433
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;959-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/bkg-topbar.gif"
+    path="/jpetstore/images/bkg-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="745"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="3fc742eb-7991-4c19-8216-22a86df85c2f" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_3fc742eb-7991-4c19-8216-22a86df85c2f.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3fc742eb-7991-4c19-8216-22a86df85c2f.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"959-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 959
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;96-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/cart.gif"
+    path="/jpetstore/images/cart.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="474"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="268ee14e-8f8c-4dd8-9cc4-a39a41eab0f2" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_268ee14e-8f8c-4dd8-9cc4-a39a41eab0f2.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_268ee14e-8f8c-4dd8-9cc4-a39a41eab0f2.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"96-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 96
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;3808-1088130660000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/logo-topbar.gif"
+    path="/jpetstore/images/logo-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="603"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="35d3e814-070b-4d5f-b842-f6777bda9b39" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_35d3e814-070b-4d5f-b842-f6777bda9b39.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_35d3e814-070b-4d5f-b842-f6777bda9b39.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"3808-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 3808
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;134-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/help.gif"
+    path="/jpetstore/images/help.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="327"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="e7e7ccd7-fff1-49a9-b879-7fed7983466e" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_e7e7ccd7-fff1-49a9-b879-7fed7983466e.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e7e7ccd7-fff1-49a9-b879-7fed7983466e.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"134-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 134
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;257-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/sign-in.gif"
+    path="/jpetstore/images/sign-in.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="737"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="f855dac3-8f52-4fb6-8354-25241b4f3291" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_f855dac3-8f52-4fb6-8354-25241b4f3291.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f855dac3-8f52-4fb6-8354-25241b4f3291.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"257-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 257
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;46-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/separator.gif"
+    path="/jpetstore/images/separator.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="601"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="cbf87568-b908-453e-b168-496edbb84251" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_cbf87568-b908-453e-b168-496edbb84251.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cbf87568-b908-453e-b168-496edbb84251.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"46-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 46
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;2722-1088130660000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/poweredby.gif"
+    path="/jpetstore/images/poweredby.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="469"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="33247369-2a32-4a9f-ba40-16d9ffa295dc" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_33247369-2a32-4a9f-ba40-16d9ffa295dc.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_33247369-2a32-4a9f-ba40-16d9ffa295dc.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"2722-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 2722
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;323-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/search.gif"
+    path="/jpetstore/images/search.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="324"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="c95a3c28-7e5c-466d-8aaf-10c04e93fb4e" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_c95a3c28-7e5c-466d-8aaf-10c04e93fb4e.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c95a3c28-7e5c-466d-8aaf-10c04e93fb4e.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"323-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 323
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;959-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/bkg-topbar.gif"
+    path="/jpetstore/images/bkg-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/a1e50fe5-47c4-4489-bcd0-f854292fcd81.zip"
+    recordedResponseCode="200" recordedResponseTime="155"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="5ee1ae6e-45c5-47d0-92b2-801ba1646b0e" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_5ee1ae6e-45c5-47d0-92b2-801ba1646b0e.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5ee1ae6e-45c5-47d0-92b2-801ba1646b0e.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"959-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Type: image/gif
+Content-Length: 959
+Date: Wed, 22 Oct 2014 09:50:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

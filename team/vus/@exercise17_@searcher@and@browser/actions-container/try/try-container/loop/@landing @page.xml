@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Landing Page" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="53a9686b-91c0-42d2-a8c4-97ac5c669e0f" weightsEnabled="false">
+    <weighted-embedded-action uid="df87e9dc-4889-4b76-868f-4dff2a1a07cc"/>
+</basic-logical-action-container>

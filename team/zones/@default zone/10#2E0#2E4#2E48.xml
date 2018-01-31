@@ -1,0 +1,26 @@
+<lg-host hostname="10.0.4.48" loadWeight="1" standalone="true"
+    supportWANEmulation="false"
+    uid="9ecdd7aa-f39b-49df-88d5-fb63257403bb" version="5.0.0;build=180714-508">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%1">
+            <ip value="0:0:0:0:0:0:0:1%1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="enp0s18" enabled="false"
+        isLoopBack="false" name="enp0s18">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="10.0.4.48">
+            <ip value="10.0.4.48"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:20c:29ff:fea5:27e1%2">
+            <ip value="fe80:0:0:0:20c:29ff:fea5:27e1%2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

@@ -1,0 +1,36 @@
+<lg-host hostname="hydre.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="true"
+    uid="431768d4-d07b-4914-96c5-b586c69e2ec5" version="5.0.4;build=020415-803">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Fortinet virtual adapter"
+        enabled="false" isLoopBack="false" name="eth8">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:95da:dbeb:58be:7318%21">
+            <ip value="fe80:0:0:0:95da:dbeb:58be:7318%21"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Broadcom NetXtreme 57xx Gigabit Controller"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="hydre.intranet.neotys.com">
+            <ip value="10.0.4.124"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:5993:545e:de0:8cac%11">
+            <ip value="fe80:0:0:0:5993:545e:de0:8cac%11"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

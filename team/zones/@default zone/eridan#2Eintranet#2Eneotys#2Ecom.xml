@@ -1,0 +1,28 @@
+<lg-host hostname="eridan.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="true"
+    uid="6c0fa5d9-b4b8-4eef-b3a8-51f43446fba3" version="5.0.0;build=180714-508">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Broadcom NetXtreme 57xx Gigabit Controller"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="eridan.intranet.neotys.com">
+            <ip value="10.0.4.12"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:cd0e:e17b:2d7:3a3b%11">
+            <ip value="fe80:0:0:0:cd0e:e17b:2d7:3a3b%11"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

@@ -1,0 +1,4 @@
+<http-server hostname="localhost" port="7400" ssl="false"
+    uid="Data Exchange API" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

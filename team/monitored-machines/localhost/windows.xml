@@ -1,0 +1,375 @@
+<connection-win interval="5000" login="" name="windows" password=""
+    server-address="localhost" server-port="0" uid="ec535d6d-1327-400f-8125-db844d020f58">
+    <monitor-category name="Memory" short-display-name="Memory">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Memory/Available MBytes"
+            path="\\localhost\Memory\Available MBytes" sampling="0"
+            short-display-name="Available MBytes"
+            threshold="3ef38aae-3b9a-40e3-b578-bfbb38780b16" unit="">
+            <description>Available MBytes is the amount of physical memory, in Megabytes, immediately available for allocation to a process or for system use. It is equal to the sum of memory assigned to the standby (cached), free and zero page lists. For a full explanation of the memory manager, refer to MSDN and/or the System Performance and Troubleshooting Guide chapter in the Windows Server 2003 Resource Kit.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Memory/Page Faults/sec"
+            path="\\localhost\Memory\Page Faults/sec" sampling="0"
+            short-display-name="Page Faults/sec" unit="">
+            <description>Page Faults/sec is the average number of pages faulted per second. It is measured in number of pages faulted per second because only one page is faulted in each fault operation, hence this is also equal to the number of page fault operations. This counter includes both hard faults (those that require disk access) and soft faults (where the faulted page is found elsewhere in physical memory.) Most processors can handle large numbers of soft faults without significant consequence. However, hard faults, which require disk access, can cause significant delays.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Memory/Pages/sec" path="\\localhost\Memory\Pages/sec"
+            sampling="0" short-display-name="Pages/sec"
+            threshold="e26fb7f6-13e3-4752-b73c-24ee63dac606" unit="">
+            <description>Pages/sec is the rate at which pages are read from or written to disk to resolve hard page faults. This counter is a primary indicator of the kinds of faults that cause system-wide delays.  It is the sum of Memory\\Pages Input/sec and Memory\\Pages Output/sec.  It is counted in numbers of pages, so it can be compared to other counts of pages, such as Memory\\Page Faults/sec, without conversion. It includes pages retrieved to satisfy faults in the file system cache (usually requested by applications) non-cached mapped memory files.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Memory/% Committed Bytes In Use"
+            path="\\localhost\Memory\% Committed Bytes In Use"
+            sampling="0" short-display-name="% Committed Bytes In Use"
+            threshold="78d67141-f650-407e-896f-b06ea27dfe6e" unit="">
+            <description>% Committed Bytes In Use is the ratio of Memory\\Committed Bytes to the Memory\\Commit Limit. Committed memory is the physical memory in use for which space has been reserved in the paging file should it need to be written to disk. The commit limit is determined by the size of the paging file.  If the paging file is enlarged, the commit limit increases, and the ratio is reduced). This counter displays the current percentage value only; it is not an average.</description>
+        </monitor-win32>
+    </monitor-category>
+    <monitor-category name="Network Interface" short-display-name="Network Interface">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Network Interface/% network utilization (Intel_R_ Dual Band Wireless-AC 7260)"
+            path="\\localhost\Network Interface(Intel[R] Dual Band Wireless-AC 7260)\% network utilization"
+            sampling="0"
+            short-display-name="% network utilization (Intel_R_ Dual Band Wireless-AC 7260)"
+            threshold="6b761d60-7db1-4238-93bb-7d6fc52999ec" unit="" virtualCounterID="Network Interface/% network utilization">
+            <description>Percentage of bandwidth utilization. This is a NeoLoad virtual counter based on "Bytes Total/sec" and "Current Bandwidth".</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Network Interface/Bytes Total/sec (Intel_R_ Dual Band Wireless-AC 7260)"
+            path="\\localhost\Network Interface(Intel[R] Dual Band Wireless-AC 7260)\Bytes Total/sec"
+            sampling="0"
+            short-display-name="Bytes Total/sec (Intel_R_ Dual Band Wireless-AC 7260)" unit="">
+            <description>Bytes Total/sec is the rate at which bytes are sent and received over each network adapter, including framing characters. Network Interface\Bytes Total/sec is a sum of Network Interface\Bytes Received/sec and Network Interface\Bytes Sent/sec.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Network Interface/Output Queue Length (Intel_R_ Dual Band Wireless-AC 7260)"
+            path="\\localhost\Network Interface(Intel[R] Dual Band Wireless-AC 7260)\Output Queue Length"
+            sampling="0"
+            short-display-name="Output Queue Length (Intel_R_ Dual Band Wireless-AC 7260)"
+            threshold="982f0ce1-a82a-4c28-9d2b-f0c46a9bc0a9" unit="">
+            <description>Output Queue Length is the length of the output packet queue (in packets). If this is longer than two, there are delays and the bottleneck should be found and eliminated, if possible. Since the requests are queued by the Network Driver Interface Specification (NDIS) in this implementation, this will always be 0.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Network Interface/Packets/sec (Intel_R_ Dual Band Wireless-AC 7260)"
+            path="\\localhost\Network Interface(Intel[R] Dual Band Wireless-AC 7260)\Packets/sec"
+            sampling="0"
+            short-display-name="Packets/sec (Intel_R_ Dual Band Wireless-AC 7260)" unit="">
+            <description>Packets/sec is the rate at which packets are sent and received on the network interface.</description>
+        </monitor-win32>
+    </monitor-category>
+    <monitor-category name="PhysicalDisk" short-display-name="PhysicalDisk">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PhysicalDisk/% Idle Time"
+            path="\\localhost\PhysicalDisk(_Total)\% Idle Time"
+            sampling="0" short-display-name="% Idle Time"
+            threshold="dc28104c-c778-4ec0-a23a-f15d41cff8fe" unit="">
+            <description>% Idle Time reports the percentage of time during the sample interval that the disk was idle.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PhysicalDisk/Avg. Disk Queue Length"
+            path="\\localhost\PhysicalDisk(_Total)\Avg. Disk Queue Length"
+            sampling="0" short-display-name="Avg. Disk Queue Length"
+            threshold="efa5bd67-5c36-4a76-a490-0c10f5a1d138" unit="">
+            <description>Avg. Disk Queue Length is the average number of both read and write requests that were queued for the selected disk during the sample interval.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PhysicalDisk/Avg. Disk sec/Read"
+            path="\\localhost\PhysicalDisk(_Total)\Avg. Disk sec/Read"
+            sampling="0" short-display-name="Avg. Disk sec/Read"
+            threshold="d27f9b95-8606-43c2-830f-65a50f61cea0" unit="">
+            <description>Avg. Disk sec/Read is the average time, in seconds, of a read of data from the disk.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PhysicalDisk/Avg. Disk sec/Write"
+            path="\\localhost\PhysicalDisk(_Total)\Avg. Disk sec/Write"
+            sampling="0" short-display-name="Avg. Disk sec/Write"
+            threshold="bdb67f6d-1c41-4b7c-9186-751b9595499f" unit="">
+            <description>Avg. Disk sec/Write is the average time, in seconds, of a write of data to the disk.</description>
+        </monitor-win32>
+    </monitor-category>
+    <monitor-category name="Processor" short-display-name="Processor">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Processor/% Processor Time"
+            path="\\localhost\Processor(_Total)\% Processor Time"
+            sampling="0" short-display-name="% Processor Time"
+            threshold="f06b59a6-a357-4f20-9f54-4146c2814815" unit="">
+            <description>% Processor Time is the percentage of elapsed time that the processor spends to execute a non-Idle thread. It is calculated by measuring the percentage of time that the processor spends executing the idle thread and then subtracting that value from 100%. (Each processor has an idle thread that consumes cycles when no other threads are ready to run). This counter is the primary indicator of processor activity, and displays the average percentage of busy time observed during the sample interval. It should be noted that the accounting calculation of whether the processor is idle is performed at an internal sampling interval of the system clock (10ms). On todays fast processors, % Processor Time can therefore underestimate the processor utilization as the processor may be spending a lot of time servicing threads between the system clock sampling interval. Workload based timer applications are one example  of applications  which are more likely to be measured inaccurately as timers are signaled just after the sample is taken.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Processor/Interrupts/sec"
+            path="\\localhost\Processor(_Total)\Interrupts/sec"
+            sampling="0" short-display-name="Interrupts/sec"
+            threshold="f6fd6216-5edf-4ea5-86e0-f6d56f67e0bb" unit="">
+            <description>Interrupts/sec is the average rate, in incidents per second, at which the processor received and serviced hardware interrupts. It does not include deferred procedure calls (DPCs), which are counted separately. This value is an indirect indicator of the activity of devices that generate interrupts, such as the system clock, the mouse, disk drivers, data communication lines, network interface cards, and other peripheral devices. These devices normally interrupt the processor when they have completed a task or require attention. Normal thread execution is suspended. The system clock typically interrupts the processor every 10 milliseconds, creating a background of interrupt activity. This counter displays the difference between the values observed in the last two samples, divided by the duration of the sample interval.</description>
+        </monitor-win32>
+    </monitor-category>
+    <monitor-category name="Processor Information" short-display-name="Processor Information">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Processor Information/% Processor Time"
+            path="\\localhost\Processor Information(_Total)\% Processor Time"
+            sampling="0" short-display-name="% Processor Time" unit=""/>
+    </monitor-category>
+    <monitor-category name="System" short-display-name="System">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="System/Context Switches/sec"
+            path="\\localhost\System\Context Switches/sec" sampling="0"
+            short-display-name="Context Switches/sec" unit="">
+            <description>Context Switches/sec is the combined rate at which all processors on the computer are switched from one thread to another.  Context switches occur when a running thread voluntarily relinquishes the processor, is preempted by a higher priority ready thread, or switches between user-mode and privileged (kernel) mode to use an Executive or subsystem service.  It is the sum of Thread\\Context Switches/sec for all threads running on all processors in the computer and is measured in numbers of switches.  There are context switch counters on the System and Thread objects. This counter displays the difference between the values observed in the last two samples, divided by the duration of the sample interval.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="System/Processor Queue Length"
+            path="\\localhost\System\Processor Queue Length"
+            sampling="0" short-display-name="Processor Queue Length" unit="">
+            <description>Processor Queue Length is the number of threads in the processor queue.  Unlike the disk counters, this counter counters, this counter shows ready threads only, not threads that are running.  There is a single queue for processor time even on computers with multiple processors. Therefore, if a computer has multiple processors, you need to divide this value by the number of processors servicing the workload. A sustained processor queue of less than 10 threads per processor is normally acceptable, dependent of the workload.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="System/Processor Queue Length per CPU"
+            path="\\localhost\System\Processor Queue Length per CPU"
+            sampling="0"
+            short-display-name="Processor Queue Length per CPU"
+            threshold="d54c9a2a-04e8-42c3-9761-79d9137442ca" unit="" virtualCounterID="System/Processor Queue Length per CPU">
+            <description>Processor Queue Length divided per the number of processors. This is a NeoLoad virtual counter based on "Processor Queue Length".</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="System/System Calls/sec"
+            path="\\localhost\System\System Calls/sec" sampling="0"
+            short-display-name="System Calls/sec" unit="">
+            <description>System Calls/sec is the combined rate of calls to operating system service routines by all processes running on the computer. These routines perform all of the basic scheduling and synchronization of activities on the computer, and provide access to non-graphic devices, memory management, and name space management. This counter displays the difference between the values observed in the last two samples, divided by the duration of the sample interval.</description>
+        </monitor-win32>
+    </monitor-category>
+    <monitor-category name="TCPv4" short-display-name="TCPv4">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPv4/% Segments Retransmitted"
+            path="\\localhost\TCPv4\% Segments Retransmitted"
+            sampling="0" short-display-name="% Segments Retransmitted"
+            threshold="5638f44d-6dfd-461b-ab50-79bac8872669" unit="" virtualCounterID="TCPv4/% Segments Retransmitted">
+            <description>Percentage of retransmitted segments. This is a NeoLoad virtual counter based on "Segment Retransmitted/sec" and "Segment Sent/sec".</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPv4/Segments Retransmitted/sec"
+            path="\\localhost\TCPv4\Segments Retransmitted/sec"
+            sampling="0" short-display-name="Segments Retransmitted/sec" unit="">
+            <description>Segments Retransmitted/sec is the rate at which segments are retransmitted, that is, segments transmitted containing one or more previously transmitted bytes.</description>
+        </monitor-win32>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPv4/Segments Sent/sec"
+            path="\\localhost\TCPv4\Segments Sent/sec" sampling="0"
+            short-display-name="Segments Sent/sec" unit="">
+            <description>Segments Sent/sec is the rate at which segments are sent, including those on current connections, but excluding those containing only retransmitted bytes.</description>
+        </monitor-win32>
+    </monitor-category>
+    <threshold enabled="true" uid="3ef38aae-3b9a-40e3-b578-bfbb38780b16">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="LESS_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Low physical memory</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Low physical memory</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="LESS_THAN" severity="HIGH" valueMax="Infinity" valueMin="5.0">
+            <threshold-comment language="en">
+                <threshold-content>Low physical memory</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Low physical memory</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="e26fb7f6-13e3-4752-b73c-24ee63dac606">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="20.0">
+            <threshold-comment language="en">
+                <threshold-content>High number of hard page faults</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Grand nombre de défauts de page</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>High number of hard page faults</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Grand nombre de défauts de page</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="6b761d60-7db1-4238-93bb-7d6fc52999ec">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>High network usage of the network interface</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Grande utilisation réseau de l'interface réseau</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="95.0">
+            <threshold-comment language="en">
+                <threshold-content>High network usage of the network interface</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Grande utilisation réseau de l'interface réseau</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="982f0ce1-a82a-4c28-9d2b-f0c46a9bc0a9">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="2.0">
+            <threshold-comment language="en">
+                <threshold-content>High length of the output packet queue</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Grande file d'attente de paquets sortants</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="3.0">
+            <threshold-comment language="en">
+                <threshold-content>High length of the output packet queue</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Grande file d'attente de paquets sortants</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="dc28104c-c778-4ec0-a23a-f15d41cff8fe">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="LESS_THAN" severity="HIGH" valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>Disk is busy.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Le disque est occupé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="LESS_THAN" severity="LOW" valueMax="Infinity" valueMin="5.0">
+            <threshold-comment language="en">
+                <threshold-content>Disk is busy.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Le disque est occupé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="efa5bd67-5c36-4a76-a490-0c10f5a1d138">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="2.0">
+            <threshold-comment language="en">
+                <threshold-content>High disk queue</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>File d'attente du disque trop élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="d27f9b95-8606-43c2-830f-65a50f61cea0">
+        <threshold-condition durationKind="NB_OF_TIMES"
+            durationNumber="1" operator="GREATER_THAN" severity="HIGH"
+            valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>Very high disk latency. Disk overloaded.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Temps de latence très élevé. Disque surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="bdb67f6d-1c41-4b7c-9186-751b9595499f">
+        <threshold-condition durationKind="NB_OF_TIMES"
+            durationNumber="1" operator="GREATER_THAN" severity="HIGH"
+            valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>Very high disk latency. Disk overloaded.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Temps de latence très élevé. Disque surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="f06b59a6-a357-4f20-9f54-4146c2814815">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Global CPU high</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>CPU global surchargé</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="95.0">
+            <threshold-comment language="en">
+                <threshold-content/>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="f6fd6216-5edf-4ea5-86e0-f6d56f67e0bb">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50000.0">
+            <threshold-comment language="en">
+                <threshold-content>High number of interrupts the processor was asked to respond to</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'interruptions du processeur</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="d54c9a2a-04e8-42c3-9761-79d9137442ca">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="2.0">
+            <threshold-comment language="en">
+                <threshold-content>Many waiting Threads</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Beaucoup de threads en attente</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="60"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="4.0">
+            <threshold-comment language="en">
+                <threshold-content>Too much waiting Threads. CPU overloaded</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Trop de threads en attente. CPU surchargé</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="5638f44d-6dfd-461b-ab50-79bac8872669">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>Many retransmitted segments.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombreux segments retransmis</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="5.0">
+            <threshold-comment language="en">
+                <threshold-content>Many retransmitted segments.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombreux segments retransmis</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="78d67141-f650-407e-896f-b06ea27dfe6e">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="98.0">
+            <threshold-comment language="en">
+                <threshold-content/>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+</connection-win>

@@ -1,0 +1,57 @@
+<lg-host hostname="mykonos.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="false"
+    uid="5eeabcec-a533-425b-985a-71db29ff848c" version="5.0.0;build=180714-508">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Périphérique Bluetooth (réseau personnel)"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:b5ab:146a:cdd8:9c75%14">
+            <ip value="fe80:0:0:0:b5ab:146a:cdd8:9c75%14"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) 82579LM Gigabit Network Connection"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="mykonos.intranet.neotys.com">
+            <ip value="10.0.4.27"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Virtual WiFi Miniport Adapter #2"
+        enabled="false" isLoopBack="false" name="net8">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:a114:66c9:5108:2718%17">
+            <ip value="fe80:0:0:0:a114:66c9:5108:2718%17"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Virtual WiFi Miniport Adapter"
+        enabled="false" isLoopBack="false" name="net7">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:bde5:b8fd:256e:20c6%16">
+            <ip value="fe80:0:0:0:bde5:b8fd:256e:20c6%16"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Centrino(R) Advanced-N 6205"
+        enabled="false" isLoopBack="false" name="net5">
+        <!--****** LG ADDRESSES ******-->
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

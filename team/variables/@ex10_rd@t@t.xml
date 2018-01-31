@@ -1,0 +1,1 @@
+<variable-random-number max-value="10000" min-value="5000" name="Ex10_rdTT" order="1" policy="1" random-seed="false" range="2" uid="cb4adcb7-fb5d-41ea-92c6-97f33a84f628" whenOutOfValues="CYCLE_VALUES"/>

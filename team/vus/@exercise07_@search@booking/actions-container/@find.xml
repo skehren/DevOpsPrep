@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Find" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="7b280b6d-8478-4940-940c-181790347b7e" weightsEnabled="false">
+    <weighted-embedded-action uid="dab0869a-2e9c-4eed-a765-5b123de02ca9"/>
+    <weighted-embedded-action uid="17518a93-f265-48b9-8202-ec9b3b255e0f"/>
+</basic-logical-action-container>

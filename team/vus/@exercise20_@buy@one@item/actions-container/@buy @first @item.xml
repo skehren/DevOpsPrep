@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Buy First Item" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="696370c1-96dc-44d8-8125-cdaca491f60f" weightsEnabled="false">
+    <weighted-embedded-action uid="10dc07a9-4e25-43f0-af80-06949e21bda0"/>
+    <weighted-embedded-action uid="ebe30a52-a214-436f-afd8-6bc67a33cc7b"/>
+</basic-logical-action-container>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Checkout" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="cbc77927-df49-44b0-9821-cd8a1a380e04" weightsEnabled="false">
+    <weighted-embedded-action uid="ad75545a-9fb8-42da-90f2-a90b55262162"/>
+    <weighted-embedded-action uid="e1de1c1a-f095-4f54-9f6c-2141503afb45"/>
+    <weighted-embedded-action uid="3ce8b0b3-11aa-45ff-9714-ebf049aa07c2"/>
+    <weighted-embedded-action uid="b9a4f9bd-113c-4e8d-9a23-ff85e560a873"/>
+</basic-logical-action-container>

@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false" name="/zkspringwf/zkau"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise07_@search@booking/%resources%/recorded-artifacts/dab0869a-2e9c-4eed-a765-5b123de02ca9.zip"
+    slaProfileEnabled="false" thinkTime="5739"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="dab0869a-2e9c-4eed-a765-5b123de02ca9">
+    <embedded-action>0957058a-81e0-4ba5-ac96-ed0c05dfaabe</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_dab0869a-2e9c-4eed-a765-5b123de02ca9.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/zkspringwf/zkau" path="/zkspringwf/zkau"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise07_@search@booking/%resources%/recorded-artifacts/dab0869a-2e9c-4eed-a765-5b123de02ca9.zip"
+    recordedResponseCode="200" recordedResponseTime="129"
+    responseSize="78" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="0957058a-81e0-4ba5-ac96-ed0c05dfaabe" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[ZHRpZD16XzB5XzAmY21kXzA9b25DbGljayZ1dWlkXzA9bFU1VWYwJmRhdGFfMD0lN0IlMjJwYWdlWCUyMiUzQTk2MCUyQyUyMnBhZ2VZJTIyJTNBMzQ4LjE3OTk5MjY3NTc4MTI1JTJDJTIyd2hpY2glMjIlM0ExJTJDJTIyeCUyMiUzQTE4LjQxMDAzNDE3OTY4NzUlMkMlMjJ5JTIyJTNBNy42NjAwMDM2NjIxMDkzNzUlN0Q=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_0957058a-81e0-4ba5-ac96-ed0c05dfaabe</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0957058a-81e0-4ba5-ac96-ed0c05dfaabe.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="dtid"
+        recordRawValue="z_0y_0" separator="=" value="z_0y_0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cmd_0"
+        recordRawValue="onClick" separator="=" value="onClick" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="uuid_0"
+        recordRawValue="lU5Uf0" separator="=" value="lU5Uf0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="data_0"
+        recordRawValue="%7B%22pageX%22%3A960%2C%22pageY%22%3A348.17999267578125%2C%22which%22%3A1%2C%22x%22%3A18.4100341796875%2C%22y%22%3A7.660003662109375%7D"
+        separator="="
+        value="{&quot;pageX&quot;:960,&quot;pageY&quot;:348.17999267578125,&quot;which&quot;:1,&quot;x&quot;:18.4100341796875,&quot;y&quot;:7.660003662109375}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded;charset=UTF-8"/>
+    <header name="ZK-SID" value="9966"/>
+    <header name="Referer" value="http://174.129.116.229:8080/zkspringwf/spring/main?execution=e1s1"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="DNT" value="1"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Cookie" value="JSESSIONID=B18A1F7249A96DEEB8EF2A53E337F7A4"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+ZK-SID: 9966
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Cache-Control: no-store
+Content-Type: text/plain;charset=UTF-8
+Content-Language: fr-FR
+Content-Length: 78
+Date: Tue, 21 Oct 2014 08:30:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

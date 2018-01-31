@@ -1,0 +1,45 @@
+<lg-host hostname="hoedic.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="true"
+    uid="6f749748-5154-4992-8950-68c472e41cf8" version="5.0.1;build=021014-689">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Périphérique Bluetooth (réseau personnel)"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:9d07:c48b:7b4c:8ebc%15">
+            <ip value="fe80:0:0:0:9d07:c48b:7b4c:8ebc%15"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) 82579LM Gigabit Network Connection"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:e1a2:db38:7f5e:8401%11">
+            <ip value="fe80:0:0:0:e1a2:db38:7f5e:8401%11"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Centrino(R) Advanced-N 6205"
+        enabled="false" isLoopBack="false" name="net5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="hoedic.intranet.neotys.com">
+            <ip value="10.0.4.17"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:40ff:43cb:5665:b5d4%13">
+            <ip value="fe80:0:0:0:40ff:43cb:5665:b5d4%13"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

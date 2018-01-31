@@ -1,0 +1,26 @@
+<lg-host hostname="10.0.5.12" loadWeight="1" standalone="false"
+    supportWANEmulation="false"
+    uid="cfbf60d8-1b89-4766-8d5a-62638ab92be9" version="5.0.4;build=020415-803">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="enp0s25" enabled="false"
+        isLoopBack="false" name="enp0s25">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="abitbol">
+            <ip value="10.0.5.12"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:3617:ebff:fec5:b5a7%3">
+            <ip value="fe80:0:0:0:3617:ebff:fec5:b5a7%3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost.localdomain">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%1">
+            <ip value="0:0:0:0:0:0:0:1%1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

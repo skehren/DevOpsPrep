@@ -1,0 +1,6 @@
+<variable-list name="Ex09_Address" offset="1" order="2" policy="5" range="1" uid="82d1b99e-f2b5-43db-b42a-a39b349117ae" whenOutOfValues="CYCLE_VALUES">
+<column name="City" number="0"/>
+<column name="State" number="1"/>
+<column name="ZIP" number="2"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAAEdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAA3QABkJvc3RvbnQAAk1BdAAFMDIxMzR1cQB+AAIAAAADdAALUmFuZG9tIExha2V0AAJXSXQABTUzMDc1dXEAfgACAAAAA3QADUJldmVybHkgSGlsbHN0AAJDQXQABTkwMjEwdXEAfgACAAAAA3QABEVjaG90AAZPcmVnb250AAU5NzgyNg==]]></values>
+</variable-list>

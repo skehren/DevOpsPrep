@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="2688e6a7-aa76-4f97-9ae1-2cd2b2c1c6ea" weightsEnabled="false">
+    <weighted-embedded-action uid="a3cc4cc6-881b-4845-9eb3-9f6c681855ab"/>
+    <weighted-embedded-action uid="1ff2288e-8162-4590-b6ec-669f9fe25490"/>
+</basic-logical-action-container>

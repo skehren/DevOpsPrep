@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/viewCategory.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise04_@buyer/%resources%/recorded-artifacts/6decb890-ce9c-4c37-8a3e-b373c1022fa9.zip"
+    slaProfileEnabled="false" thinkTime="7812"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6decb890-ce9c-4c37-8a3e-b373c1022fa9">
+    <embedded-action>21015ffa-1341-4b1f-9411-c5e7f9fa6ef6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6decb890-ce9c-4c37-8a3e-b373c1022fa9.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    extractorServerUid="!!! The hostname must be changed !!!"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/viewCategory.shtml"
+    path="/jpetstore/shop/viewCategory.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise04_@buyer/%resources%/recorded-artifacts/6decb890-ce9c-4c37-8a3e-b373c1022fa9.zip"
+    recordedResponseCode="200" recordedResponseTime="35"
+    refererUid="f77ecb93-4ff4-4753-abc8-cf193d6ecff3"
+    responseSize="3977" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="21015ffa-1341-4b1f-9411-c5e7f9fa6ef6" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_21015ffa-1341-4b1f-9411-c5e7f9fa6ef6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_21015ffa-1341-4b1f-9411-c5e7f9fa6ef6.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="categoryId"
+        recordRawValue="FISH" separator="=" value="FISH" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="1413820568634" separator="="
+        value="1413820568634" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*"/>
+    <header name="Referer" value="http://marmara:8080/jpetstore/shop/signon.shtml;jsessionid=3D2C8625CA966BEBBF3D00A4303B73C2"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="marmara:8080"/>
+    <header name="Cookie" value="JSESSIONID=3D2C8625CA966BEBBF3D00A4303B73C2"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 3977
+Date: Mon, 20 Oct 2014 15:56:16 GMT</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="11"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

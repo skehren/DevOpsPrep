@@ -1,0 +1,5 @@
+<variable-modifier-action definedMode="1" dest-variable-name=""
+    name="variable_modifier" shared-variable-name="Ex20_SQ"
+    sharedMode="3" src-variable-name="${Ex20_eOrderNb}"
+    uid="618e155f-a9b2-4da5-94c2-35dbb19b9474"
+    variable-category="SHARED" variable-name=""/>

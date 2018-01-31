@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/checkout.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise05_@buyer/%resources%/recorded-artifacts/75f33964-b16b-409d-bd6e-cdcf6fa33049.zip"
+    slaProfileEnabled="false" thinkTime="7858"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="75f33964-b16b-409d-bd6e-cdcf6fa33049">
+    <embedded-action>145fa5c2-ba6a-4a8d-8aa7-4e33062b2e9f</embedded-action>
+    <embedded-action>2f3deed5-971f-4932-9756-3f5324bfc40c</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_61de98a7-e30f-4538-b169-cf1b0818f799.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    extractorServerUid="!!! The hostname must be changed !!!"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/checkout.shtml"
+    path="/jpetstore/shop/checkout.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise05_@buyer/%resources%/recorded-artifacts/75f33964-b16b-409d-bd6e-cdcf6fa33049.zip"
+    recordedResponseCode="200" recordedResponseTime="48"
+    refererUid="e5791dd7-e9e0-4b30-860d-89ec1104571b"
+    responseSize="4198" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="145fa5c2-ba6a-4a8d-8aa7-4e33062b2e9f" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_648cb0ce-c18e-4583-b35a-7f6cf6fc1b83.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_648cb0ce-c18e-4583-b35a-7f6cf6fc1b83.txt</requestContentFileDescription>
+    <header name="Accept" value="application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*"/>
+    <header name="Referer" value="http://marmara:8080/jpetstore/shop/addItemToCart.shtml?workingItemId=EST-1"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="marmara:8080"/>
+    <header name="Cookie" value="JSESSIONID=3D2C8625CA966BEBBF3D00A4303B73C2"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 4198
+Date: Mon, 20 Oct 2014 15:56:38 GMT</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="14"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    extractorServerUid="!!! The hostname must be changed !!!"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/button_continue.gif"
+    path="/jpetstore/images/button_continue.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise05_@buyer/%resources%/recorded-artifacts/75f33964-b16b-409d-bd6e-cdcf6fa33049.zip"
+    recordedResponseCode="200" recordedResponseTime="39"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="2f3deed5-971f-4932-9756-3f5324bfc40c" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_3820a2ad-064f-4a3b-a53b-9fddcc5d2477.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3820a2ad-064f-4a3b-a53b-9fddcc5d2477.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Referer" value="http://marmara:8080/jpetstore/shop/checkout.shtml"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="marmara:8080"/>
+    <header name="Cookie" value="JSESSIONID=3D2C8625CA966BEBBF3D00A4303B73C2"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+ETag: W/"1275-1088137860000"
+Last-Modified: Fri, 25 Jun 2004 04:31:00 GMT
+Content-Type: image/gif
+Content-Length: 1275
+Date: Mon, 20 Oct 2014 15:56:38 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

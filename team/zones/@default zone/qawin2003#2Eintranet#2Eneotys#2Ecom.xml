@@ -1,0 +1,22 @@
+<lg-host hostname="qawin2003.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="false"
+    uid="9ed8b8f6-0d86-40d3-917f-98bc500461c8" version="5.0.1;build=021014-689">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="MS TCP Loopback interface"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) PRO/1000 MT Network Connection"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="qawin2003.intranet.neotys.com">
+            <ip value="10.0.4.58"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

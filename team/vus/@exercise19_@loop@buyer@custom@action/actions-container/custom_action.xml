@@ -1,0 +1,13 @@
+<custom-action actionType="Command line Action" isHit="false"
+    name="custom_action" uid="546c1936-0523-4626-a396-93a9c2b34def">
+    <description>Launch a program on the load generator machine.
+Possible parameters are:
+- command: the command to launch or program executable file
+- argX: the program argument number X (eg: arg1, arg2, ...)
+- charset: the charset used by the console. Default platform charset is used if not set.</description>
+    <custom-action-parameter name="command" type="TEXT" value="Echo"/>
+    <custom-action-parameter name="arg1" type="TEXT" value="${Ex19_eTotalPrice}"/>
+    <custom-action-parameter name="arg2" type="TEXT" value=">>"/>
+    <custom-action-parameter name="arg3" type="TEXT" value="C:\${instanceNb}.txt"/>
+    <responsePageFileDescription>recorded-responses/res_546c1936-0523-4626-a396-93a9c2b34def</responsePageFileDescription>
+</custom-action>

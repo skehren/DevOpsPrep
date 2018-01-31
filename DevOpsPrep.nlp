@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=DevOpsPrep
+project.version=6.2
+project.original.version=4.2
+product.name=NeoLoad
+product.original.name=
+product.original.version=
+project.id=63fc1bb1-7e4f-45c3-ad05-79a85f8bf780
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=skehren/DevOpsPrep

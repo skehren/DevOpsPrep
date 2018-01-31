@@ -1,0 +1,388 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" uid="Exercise21_DEA_Buyer" virtualUsersStates="true">
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Exercise21_DEA_Buyer">
+        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="20" userNumber="5"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7150</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <dashboards defaultDashboardUid="Graph board"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Graph board">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true" title="User Load and Error Rate" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="UserLoad" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.errors" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true" title="Overall Throughput" typeName="CLASSIC">
+            <monitor-curve-description color="42,89,26"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="throughput" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true" title="Load Generators CPU usage" typeName="CLASSIC">
+            <monitor-curve-description color="0,255,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgcpu.localhost"
+                monitoredHostName="LG localhost" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Exercise12/13_MySQL_Tomcat/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Exercise12/13_MySQL_Tomcat/tomcat" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="tomcat" dashed="false"
+                monitorName="Session/localhost//jpetstore/activeSessions"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="tomcat" dashed="false"
+                monitorName="Session/localhost//jpetstore/rejectedSessions"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="tomcat" dashed="false"
+                monitorName="Session/localhost//jpetstore/% rejectedSessions"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="tomcat" dashed="false"
+                monitorName="Session/localhost//jpetstore/expiredSessions"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="tomcat" dashed="false"
+                monitorName="RequestProcessor/http-8080/errorCount"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="tomcat" dashed="false"
+                monitorName="RequestProcessor/http-8080/% errorCount"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="tomcat" dashed="false"
+                monitorName="RequestProcessor/jk-8009/errorCount"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="tomcat" dashed="false"
+                monitorName="RequestProcessor/jk-8009/% errorCount"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="tomcat" dashed="false"
+                monitorName="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="tomcat" dashed="false"
+                monitorName="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/% numActive"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="tomcat" dashed="false"
+                monitorName="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numIdle"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="tomcat" dashed="false"
+                monitorName="ThreadPool/http-8080/currentThreadsBusy"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="tomcat" dashed="false"
+                monitorName="ThreadPool/http-8080/% currentThreadsBusy"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="tomcat" dashed="false"
+                monitorName="ThreadPool/http-8080/currentThreadCount"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="tomcat" dashed="false"
+                monitorName="ThreadPool/jk-8009/currentThreadsBusy"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="tomcat" dashed="false"
+                monitorName="ThreadPool/jk-8009/% currentThreadsBusy"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="tomcat" dashed="false"
+                monitorName="VM/Memory/Used"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="tomcat" dashed="false"
+                monitorName="VM/Memory/% Used"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="tomcat" dashed="false"
+                monitorName="VM/Memory/Max"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="tomcat" dashed="false"
+                monitorName="VM/Garbage Collector/Copy/CollectionTime"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="tomcat" dashed="false"
+                monitorName="VM/Garbage Collector/MarkSweepCompact/CollectionTime"
+                monitoredHostName="Exercise12/13_MySQL_Tomcat"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Exercise12/13_Windows/windows" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="windows" dashed="false"
+                monitorName="Disque physique/% d’inactivité"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="windows" dashed="false"
+                monitorName="Disque physique/Longueur moyenne de file d’attente du disque"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="windows" dashed="false"
+                monitorName="Disque physique/Moyenne disque s/lecture"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="windows" dashed="false"
+                monitorName="Disque physique/Moyenne disque s/écriture"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="windows" dashed="false"
+                monitorName="Interface réseau/% network utilization (Connexion au réseau local_ 17)"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="windows" dashed="false"
+                monitorName="Interface réseau/Longueur de la file d’attente de sortie (Connexion au réseau local_ 17)"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="windows" dashed="false"
+                monitorName="Interface réseau/Paquets/s (Connexion au réseau local_ 17)"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="windows" dashed="false"
+                monitorName="Interface réseau/Total des octets/s (Connexion au réseau local_ 17)"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="windows" dashed="false"
+                monitorName="Mémoire/Défauts de page/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="windows" dashed="false"
+                monitorName="Mémoire/Mégaoctets disponibles"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="windows" dashed="false"
+                monitorName="Mémoire/Pages/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="windows" dashed="false"
+                monitorName="Processeur/% temps processeur"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="windows" dashed="false"
+                monitorName="Processeur/Interruptions/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="windows" dashed="false"
+                monitorName="Système/Appels système/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="windows" dashed="false"
+                monitorName="Système/Changements de contexte/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="windows" dashed="false"
+                monitorName="Système/Longueur de la file du processeur"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="windows" dashed="false"
+                monitorName="Système/Processor Queue Length per CPU"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="windows" dashed="false"
+                monitorName="TCPv4/% Segments Retransmitted"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="windows" dashed="false"
+                monitorName="TCPv4/Segments envoyés/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="windows" dashed="false"
+                monitorName="TCPv4/Segments retransmis/s"
+                monitoredHostName="Exercise12/13_Windows" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="FULL" includeInReport="false"
+            rangeMarkerVisible="true" title="Exercise21/Result" typeName="CLASSIC">
+            <third-party-data-curve-description color="178,140,0"
+                dashed="false" path="Exercise21/Result" scale="1.0"
+                selected="true" unit="_"/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="0"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+</scenario>

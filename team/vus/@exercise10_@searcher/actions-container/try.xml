@@ -1,0 +1,14 @@
+<try-action catch-assertions="true" catch-errors="true" name="try" uid="fd74fff6-e028-4733-bbab-cf9d652a3e9e">
+    <try-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed until an error or assertion occurs.</description>
+        <weighted-embedded-action uid="eeb54dce-daac-4718-b91d-529515d6b08f"/>
+    </try-container>
+    <catch-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when an error or assertion occurs in the Try container.</description>
+        <weighted-embedded-action uid="d7ddc733-9324-4dd2-a919-5f0c3bb26ffd"/>
+    </catch-container>
+</try-action>

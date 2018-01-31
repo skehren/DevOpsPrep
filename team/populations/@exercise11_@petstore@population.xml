@@ -1,0 +1,65 @@
+<population uid="Exercise11_PetstorePopulation">
+    <split cache="3" factor="20.0" virtualUserUid="Exercise08_LoopBuyer">
+        <browser-profile connections="4" cookies="true" http2="false"
+            name="iPad" userAgent="Mozilla/5.0 (iPad; U; CPU OS 4_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5"/>
+        <wan-emulation-profile averageDownloadBandwidth="570Kbps"
+            averageDownloadLatency="70ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="290Kbps" averageUploadLatency="75ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="850Kbps"
+            downloadLatency="40ms" downloadPacketLoss="0%"
+            isRadio="true" name="3G" poorDownloadBandwidth="300Kbps"
+            poorDownloadLatency="150ms" poorDownloadPacketLoss="1%"
+            poorUploadBandwidth="150Kbps" poorUploadLatency="160ms"
+            poorUploadPacketLoss="0%" signalStrength="POOR"
+            uploadBandwidth="420Kbps" uploadLatency="45ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="3" factor="20.0" virtualUserUid="Exercise08_LoopBuyer">
+        <browser-profile connections="6" cookies="true" http2="false"
+            name="Chrome 32.0" userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36"/>
+        <wan-emulation-profile averageDownloadBandwidth="14Mbps"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="5Mbps" averageUploadLatency="0ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="22Mbps"
+            downloadLatency="0ms" downloadPacketLoss="0%" isRadio="true"
+            name="Wifi 802.11g" poorDownloadBandwidth="7Mbps"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="3Mbps" poorUploadLatency="0ms"
+            poorUploadPacketLoss="1%" signalStrength="AVERAGE"
+            uploadBandwidth="8Mbps" uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="2" factor="54.0" virtualUserUid="Exercise10_Searcher">
+        <browser-profile connections="6" cookies="true" http2="false" name="browser.recorded"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="bandwidth.unlimited"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="bandwidth.unlimited"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="2" factor="6.0" virtualUserUid="Exercise10_Searcher">
+        <browser-profile connections="6" cookies="true" http2="false"
+            name="browser.custom" userAgent="Proprio"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="bandwidth.unlimited"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="bandwidth.unlimited"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+</population>

@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="0" inc-value="0" name="Ex21_CurrentDate" order="1" pattern="currentTimeMillis" policy="1" range="2" uid="06b95a57-8f4c-4e69-a385-7827feb1c292" whenOutOfValues="CYCLE_VALUES"/>

@@ -1,0 +1,5 @@
+<lg-host hostname="phenix.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="false"
+    uid="264e69bb-16e8-4815-ac97-90794a7de312" version="5.0.2;build=071114-722">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

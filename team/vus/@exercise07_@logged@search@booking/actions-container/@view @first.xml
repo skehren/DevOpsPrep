@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="View First" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3c10b8f5-b6c7-4758-8b7b-811c461cdf44" weightsEnabled="false">
+    <weighted-embedded-action uid="c8196145-ec2d-4eb6-8c4b-3bac78fa7fc0"/>
+    <weighted-embedded-action uid="c2778cbf-f6fd-4e5c-a874-f69d8af1c562"/>
+</basic-logical-action-container>

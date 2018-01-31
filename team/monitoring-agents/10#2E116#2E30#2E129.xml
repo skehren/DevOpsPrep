@@ -1,0 +1,25 @@
+<me-host loadWeight="1" standalone="false" supportWANEmulation="false"
+    uid="10.116.30.129" version="5.3.1;build=20161222-182">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="wlan1" enabled="false"
+        isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="de2lxl-520048.local">
+            <ip value="10.116.30.129"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:dafc:93ff:fe27:c62b%wlan1">
+            <ip value="fe80:0:0:0:dafc:93ff:fe27:c62b%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

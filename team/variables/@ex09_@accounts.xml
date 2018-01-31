@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="jpetstore_users.csv" name="Ex09_Accounts" offset="1" order="1" policy="4" range="1" uid="49704191-9a75-4c7d-99d4-14c671f9e616" useFirstLine="false" whenOutOfValues="CYCLE_VALUES">
+<column name="password" number="1"/>
+<column name="username" number="0"/>
+</variable-file>

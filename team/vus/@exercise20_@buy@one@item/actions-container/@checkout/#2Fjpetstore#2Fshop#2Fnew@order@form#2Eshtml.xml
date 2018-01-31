@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/newOrderForm.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/e1de1c1a-f095-4f54-9f6c-2141503afb45.zip"
+    slaProfileEnabled="false" thinkTime="1712"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e1de1c1a-f095-4f54-9f6c-2141503afb45">
+    <embedded-action>52ea1d94-c95b-4ba3-b534-b4bf902158e9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e1de1c1a-f095-4f54-9f6c-2141503afb45.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/newOrderForm.shtml"
+    path="/jpetstore/shop/newOrderForm.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/e1de1c1a-f095-4f54-9f6c-2141503afb45.zip"
+    recordedResponseCode="200" recordedResponseTime="135"
+    refererUid="4be5b2c3-2707-4bba-960f-5fa0dc142b7b"
+    responseSize="4880" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="52ea1d94-c95b-4ba3-b534-b4bf902158e9" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_52ea1d94-c95b-4ba3-b534-b4bf902158e9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_52ea1d94-c95b-4ba3-b534-b4bf902158e9.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/shop/checkout.shtml"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Cookie" value="JSESSIONID=EE16C530A6C3813AFC53AA2BE5265EFF"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Content-Type: text/html
+Content-Length: 4880
+Date: Wed, 22 Oct 2014 09:51:54 GMT</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="13"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

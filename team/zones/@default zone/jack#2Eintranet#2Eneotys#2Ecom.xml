@@ -1,0 +1,29 @@
+<lg-host hostname="jack.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="false"
+    uid="f7d51583-557d-47be-83e2-1ea0d53d4802" version="5.0.1;build=021014-689">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="127.0.0.2">
+            <ip value="127.0.0.2"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%1">
+            <ip value="0:0:0:0:0:0:0:1%1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="eth0" enabled="false"
+        isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="jack.intranet.neotys.com">
+            <ip value="10.0.1.2"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:250:56ff:fe94:1905%2">
+            <ip value="fe80:0:0:0:250:56ff:fe94:1905%2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

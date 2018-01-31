@@ -1,0 +1,28 @@
+<lg-host hostname="pluta.intranet.neotys.com" loadWeight="1"
+    standalone="true" supportWANEmulation="false"
+    uid="3f257128-84f4-42b0-ae0f-214c70414d92" version="5.0.1;build=260914-664">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost.localdomain">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="eth1" enabled="false"
+        isLoopBack="false" name="eth1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="172.20.0.42">
+            <ip value="172.20.0.42"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="eth0" enabled="false"
+        isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="pluta.intranet.neotys.com">
+            <ip value="10.0.3.23"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

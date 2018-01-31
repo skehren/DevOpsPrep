@@ -1,0 +1,28 @@
+<lg-host hostname="dragon.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="false"
+    uid="c58950ee-7b57-4ba5-8b93-3e195cde0533" version="5.0.3;build=120315-787">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Broadcom NetXtreme 57xx Gigabit Controller"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="dragon.intranet.neotys.com">
+            <ip value="10.0.4.64"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d153:bcce:2c5e:e28%11">
+            <ip value="fe80:0:0:0:d153:bcce:2c5e:e28%11"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

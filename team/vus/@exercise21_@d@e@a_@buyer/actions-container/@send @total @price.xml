@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false" name="Send Total Price"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise21_@d@e@a_@buyer/%resources%/recorded-artifacts/195aa7f3-db5f-45cd-9142-426e953e2fe9.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="195aa7f3-db5f-45cd-9142-426e953e2fe9">
+    <embedded-action>6456fc5a-3d93-4eab-87a5-0b93d4ad1e1c</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="http_request_"
+    path="/DataExchange/v1/Service.svc/Entries" postCharset=""
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@exercise21_@d@e@a_@buyer/%resources%/recorded-artifacts/195aa7f3-db5f-45cd-9142-426e953e2fe9.zip"
+    serverUid="Data Exchange API" slaProfileEnabled="false"
+    uid="6456fc5a-3d93-4eab-87a5-0b93d4ad1e1c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6456fc5a-3d93-4eab-87a5-0b93d4ad1e1c</responsePageFileDescription>
+    <header name="Host" value="localhost:7400"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept_Encoding" value="gzip,deflate,sdch"/>
+    <header name="Accept_Language" value="en-US,en;q=0.8,fr;q=0.6"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+   "d":{
+      "results":[
+         {
+            "__metadata":{
+               "id":"EntriesEntries('${Ex21_eSessionId}')",
+               "uri":"EntriesEntries('${Ex21_eSessionId}')",
+               "type":"com.neotys.dataexchange.Entry"
+            },
+            "SessionId":"${Ex21_eSessionId}",
+            "Path":"Exercise21|Total Price",
+            "Value":"${Ex21_eTotalPrice}.0",
+            "Timestamp":"${Ex21_CurrentDate}",
+            "Unit":"$",
+            "Status":{
+               "__metadata":{
+                  "type":"com.neotys.dataexchange.Status"
+               },
+               "Code":"Exercise 21",
+               "Message":"Total price is ${Ex21_eTotalPrice}",
+               "State":"PASS"
+            }
+         }
+      ]
+   }
+}]]></textPostContent>
+</http-action>

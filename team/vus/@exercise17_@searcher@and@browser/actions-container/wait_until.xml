@@ -1,0 +1,6 @@
+<wait-until-action name="wait_until"
+    uid="c602937c-5758-49a5-908c-04f98392458e" wait-timeout="60000">
+    <conditions match-type="1">
+        <condition operand1="${Ex17_isComplete.value}" operand2="TRUE" operator="EQUALS"/>
+    </conditions>
+</wait-until-action>

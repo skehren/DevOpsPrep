@@ -1,0 +1,64 @@
+<http-page executeResourcesDynamically="false" name="Open Session"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise21_@d@e@a_@buyer/%resources%/recorded-artifacts/06067f2e-bfd6-4656-9ea1-54b7f89610ec.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="06067f2e-bfd6-4656-9ea1-54b7f89610ec">
+    <embedded-action>3a3a6696-2c31-4f8c-b4b0-0a805c235ad3</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="http_request_"
+    path="/DataExchange/v1/Service.svc/Session" postCharset=""
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@exercise21_@d@e@a_@buyer/%resources%/recorded-artifacts/06067f2e-bfd6-4656-9ea1-54b7f89610ec.zip"
+    serverUid="Data Exchange API" slaProfileEnabled="false"
+    uid="3a3a6696-2c31-4f8c-b4b0-0a805c235ad3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_86089384-0333-4469-9e7f-45be7fe900a9</responsePageFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Ex21_eSessionId"
+        refererUid="86089384-0333-4469-9e7f-45be7fe900a9"
+        regExp="&quot;SessionId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;SessionId&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="bc06de55-8a00-40cb-a68a-5077fdd75bab" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Host" value="localhost:7400"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept_Encoding" value="gzip,deflate,sdch"/>
+    <header name="Accept_Language" value="en-US,en;q=0.8,fr;q=0.6"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+   "d":{
+      "__metadata":{
+         "id":"SessionSession('')",
+         "uri":"SessionSession('')",
+         "type":"com.neotys.dataexchange.Session"
+      },
+      "SessionId":null,
+      "Context":{
+         "__metadata":{
+            "type":"com.neotys.dataexchange.Context"
+         },
+         "Hardware":"Laptop",
+         "Os":"Windows 7",
+         "Software":"NeoLoad",
+         "Location":"Earth",
+         "Script":"Data Exchange Demo",
+         "InstanceId":"1"
+      },
+      "ApiKey":"7d155afb-2d47-49b3-9205-7b0f66d92133"
+   }
+}]]></textPostContent>
+</http-action>

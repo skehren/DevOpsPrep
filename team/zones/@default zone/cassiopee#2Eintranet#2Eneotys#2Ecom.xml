@@ -1,0 +1,54 @@
+<lg-host hostname="cassiopee.intranet.neotys.com" loadWeight="1"
+    standalone="false" supportWANEmulation="true"
+    uid="1260cb63-03f9-457c-b3fa-87f013f22096" version="5.0.0;build=180714-508">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) Centrino(R) Advanced-N 6200 AGN"
+        enabled="false" isLoopBack="false" name="net4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:ec95:6214:bb63:f166%12">
+            <ip value="fe80:0:0:0:ec95:6214:bb63:f166%12"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Périphérique Bluetooth (réseau personnel)"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:91d8:7ed7:bd41:44f4%13">
+            <ip value="fe80:0:0:0:91d8:7ed7:bd41:44f4%13"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) 82577LM Gigabit Network Connection"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="cassiopee.intranet.neotys.com">
+            <ip value="10.0.4.40"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:8ce3:623c:55a7:de3%10">
+            <ip value="fe80:0:0:0:8ce3:623c:55a7:de3%10"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-Win32 Adapter V9" enabled="false"
+        isLoopBack="false" name="eth34">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:21f5:60e8:424:13b0%73">
+            <ip value="fe80:0:0:0:21f5:60e8:424:13b0%73"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

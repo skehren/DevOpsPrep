@@ -1,0 +1,95 @@
+<http-page executeResourcesDynamically="false" name="/zkspringwf"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise07_@search@booking/%resources%/recorded-artifacts/d4829b37-0135-473d-b059-261bdc32726c.zip"
+    slaProfileEnabled="false" thinkTime="9526"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d4829b37-0135-473d-b059-261bdc32726c">
+    <embedded-action>f367965b-80c1-40d2-abb7-4802905e7f2f</embedded-action>
+    <embedded-action>c74ae6db-7e72-4a6c-8464-a6b70bef991e</embedded-action>
+    <embedded-action>9341ddb7-b3be-47e9-b1fb-cd567d8ad999</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d4829b37-0135-473d-b059-261bdc32726c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/zkspringwf" path="/zkspringwf" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise07_@search@booking/%resources%/recorded-artifacts/d4829b37-0135-473d-b059-261bdc32726c.zip"
+    recordedResponseCode="302" recordedResponseTime="118"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="f367965b-80c1-40d2-abb7-4802905e7f2f" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_f367965b-80c1-40d2-abb7-4802905e7f2f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f367965b-80c1-40d2-abb7-4802905e7f2f.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Referer" value="http://174.129.116.229:8080/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Server: Apache-Coyote/1.1
+Location: http://174.129.116.229:8080/zkspringwf/
+Date: Tue, 21 Oct 2014 08:30:03 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/zkspringwf/" path="/zkspringwf/" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise07_@search@booking/%resources%/recorded-artifacts/d4829b37-0135-473d-b059-261bdc32726c.zip"
+    recordedResponseCode="200" recordedResponseTime="137"
+    refererUid="f367965b-80c1-40d2-abb7-4802905e7f2f" responseSize="93"
+    serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="c74ae6db-7e72-4a6c-8464-a6b70bef991e" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_c74ae6db-7e72-4a6c-8464-a6b70bef991e.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c74ae6db-7e72-4a6c-8464-a6b70bef991e.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Referer" value="http://174.129.116.229:8080/"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"93-1296553548000"
+Last-Modified: Tue, 01 Feb 2011 09:45:48 GMT
+Content-Type: text/html
+Content-Length: 93
+Date: Tue, 21 Oct 2014 08:30:03 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/x-icon"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise07_@search@booking/%resources%/recorded-artifacts/d4829b37-0135-473d-b059-261bdc32726c.zip"
+    recordedResponseCode="200" recordedResponseTime="118"
+    responseSize="0" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="9341ddb7-b3be-47e9-b1fb-cd567d8ad999" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_9341ddb7-b3be-47e9-b1fb-cd567d8ad999</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9341ddb7-b3be-47e9-b1fb-cd567d8ad999.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="DNT" value="1"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"21630-1372288114000"
+Last-Modified: Wed, 26 Jun 2013 23:08:34 GMT
+Content-Type: image/x-icon
+Content-Length: 21630
+Date: Tue, 21 Oct 2014 08:30:03 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

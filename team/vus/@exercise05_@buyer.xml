@@ -1,0 +1,33 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="Exercise05_Buyer">
+    <description>'id' parameter taken into account on page '/jpetstore/shop/viewCategory.shtml'.</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="0227a6ed-8876-4ede-9696-cfb558a8adab"/>
+        <weighted-embedded-action uid="9c8edfa6-0056-46a4-a736-407eeec43a79"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="OFF"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="aa0f3e79-ed86-47a1-8e8e-ead12f9d34ef"/>
+        <weighted-embedded-action uid="81165ec4-699f-40f3-ba27-b5cf52c45405"/>
+        <weighted-embedded-action uid="12e1ace5-35de-41e8-9634-e951b321b28d"/>
+        <weighted-embedded-action uid="08fce673-9eb8-403b-b82a-e01490798c4e"/>
+        <weighted-embedded-action uid="8491d912-4dd6-4a98-a030-d7ecef1fe396"/>
+        <weighted-embedded-action uid="09fb3805-b91b-4434-bd91-d3f7cfcf1939"/>
+        <weighted-embedded-action uid="750bb455-0cc4-4d10-9543-2882d848d130"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="e9f2b92d-c25c-4fc6-bf68-519870173cea"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

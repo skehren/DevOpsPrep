@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Pet02" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6707c45d-4c66-45e6-b745-e17382d25cf3" weightsEnabled="false">
+    <weighted-embedded-action uid="d6247d94-64a2-48ff-b5b2-71f6a0ea4ae9"/>
+    <weighted-embedded-action uid="6bcb0419-70ca-4e20-a76a-5857a10da664"/>
+    <weighted-embedded-action uid="bbd11f15-1179-4b0e-94d9-23f6693e5f35"/>
+    <weighted-embedded-action uid="f4dc96f5-59da-49c7-b563-5aa2e90726ff"/>
+</basic-logical-action-container>

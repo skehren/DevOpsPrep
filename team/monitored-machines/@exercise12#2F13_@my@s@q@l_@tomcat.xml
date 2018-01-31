@@ -1,0 +1,5 @@
+<monitored-host host-name="xxx.xxx.xxx.xxx" mehost-name="localhost" uid="Exercise12/13_MySQL_Tomcat">
+    <description>!!! Must set the monitoring agent and the hostname !!!</description>
+    <embedded-action>4150e797-0f64-4882-92e4-84770bd152b6</embedded-action>
+    <embedded-action>183e147b-920b-431f-a8aa-c0c905cf3967</embedded-action>
+</monitored-host>

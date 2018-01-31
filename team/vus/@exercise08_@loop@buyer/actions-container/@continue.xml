@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Continue" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9d6335e1-cffb-431b-a960-865b34c0664a" weightsEnabled="false">
+    <weighted-embedded-action uid="13d23528-eb88-44ee-bdb2-f7fa3ea68442"/>
+</basic-logical-action-container>

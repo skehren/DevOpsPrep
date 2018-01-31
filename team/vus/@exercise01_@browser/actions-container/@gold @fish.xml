@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Gold Fish" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6e1a50dd-661e-4d75-ac5a-542a68682943" weightsEnabled="false">
+    <weighted-embedded-action uid="8ed9231e-f465-490e-a167-fe004081e531"/>
+</basic-logical-action-container>

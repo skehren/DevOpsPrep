@@ -1,0 +1,4 @@
+<monitored-host host-name="Any Windows machine" mehost-name="localhost" uid="Exercise12/13_Windows">
+    <description>!!! Must change the hostname !!!</description>
+    <embedded-action>91b0bac0-d8c2-4b58-aa79-f5ec138cbb45</embedded-action>
+</monitored-host>

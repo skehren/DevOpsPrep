@@ -1,0 +1,8 @@
+<loop-action loop="4" name="loop" uid="eeb54dce-daac-4718-b91d-529515d6b08f">
+    <embedded-action>a34c77e9-3d4c-469d-bc6e-3fb35b8e6cac</embedded-action>
+    <embedded-action>17f4438d-fd68-481e-adea-8d613d3becc6</embedded-action>
+    <embedded-action>b525f327-22f4-4bad-871d-75401f7a071c</embedded-action>
+    <embedded-action>b943efe3-f4ef-49e8-8572-bbc7e39ffd7c</embedded-action>
+    <embedded-action>7bf157db-187d-43d4-8a40-d2a82df67d05</embedded-action>
+    <embedded-action>a2c4dc41-4504-45de-9950-c9bce3a978fa</embedded-action>
+</loop-action>

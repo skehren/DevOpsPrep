@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/signoff.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/dfa1a403-4ce9-4ff4-8ff0-3809f1257edd.zip"
+    slaProfileEnabled="false" thinkTime="3714"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="dfa1a403-4ce9-4ff4-8ff0-3809f1257edd">
+    <embedded-action>42b16150-3fa6-4337-8129-3e651394ed64</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/signoff.shtml"
+    path="/jpetstore/shop/signoff.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@exercise20_@buy@one@item/%resources%/recorded-artifacts/dfa1a403-4ce9-4ff4-8ff0-3809f1257edd.zip"
+    recordedResponseCode="200" recordedResponseTime="136"
+    refererUid="bb58d2e8-2895-4fc2-9d5a-021c6e1450ec"
+    responseSize="5954" serverUid="!!! The hostname must be changed !!!"
+    slaProfileEnabled="false" uid="42b16150-3fa6-4337-8129-3e651394ed64" useKeepAlive="true">
+    <responsePageFileDescription>recorded-responses/res_42b16150-3fa6-4337-8129-3e651394ed64.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_42b16150-3fa6-4337-8129-3e651394ed64.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Referer" value="http://174.129.116.229:8080/jpetstore/shop/newOrder.shtml?confirmed=true"/>
+    <header name="Accept-Language" value="fr-FR"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="174.129.116.229:8080"/>
+    <header name="Cookie" value="JSESSIONID=EE16C530A6C3813AFC53AA2BE5265EFF"/>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=B821A92876066577182D9CC0B1837D7E; Path=/jpetstore
+Content-Type: text/html
+Content-Length: 5954
+Date: Wed, 22 Oct 2014 09:52:03 GMT</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

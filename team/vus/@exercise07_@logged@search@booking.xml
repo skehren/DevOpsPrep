@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="Exercise07_LoggedSearchBooking">
+    <description>Raw VU profile.
+Apply the framework parameters (HOTEL package) to have it fixed.</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="OFF"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="f40e80f4-fe32-4f40-a1d0-a541a97593dc"/>
+        <weighted-embedded-action uid="8d4623d0-8e60-4fd4-aad8-06f2c3d8130d"/>
+        <weighted-embedded-action uid="dcc19649-2cbd-49e0-841a-79cf84186c30"/>
+        <weighted-embedded-action uid="a4043c8b-c88d-4cbf-8cc6-aaf95e5cf74d"/>
+        <weighted-embedded-action uid="3c10b8f5-b6c7-4758-8b7b-811c461cdf44"/>
+        <weighted-embedded-action uid="2489d57f-dfeb-4624-9a62-a8cf4a9731dc"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>
